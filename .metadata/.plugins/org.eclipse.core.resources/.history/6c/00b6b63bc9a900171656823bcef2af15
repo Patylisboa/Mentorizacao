@@ -1,0 +1,27 @@
+import javax.swing.JOptionPane;
+
+public class Maior_Menor {
+
+	public static void main(String[] args) {
+		
+		
+		int number1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+		int number2 = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+		int number3 = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+		
+		if(number1 < number2 && number1 < number3){
+			System.out.println("O numero1 é o menor" + number1);
+		}
+			System.out.println("O numero1 é o maior" + number1);
+			
+		if(number2 < number1 && number2 < number3){
+			System.out.println("O numero 2 é o menor");
+		}
+		    System.out.println("O numero 2 é o maior");
+	
+		if(number3 < number1 && number3 < number2){
+			System.out.println("O numero 3 á o menor");
+		}
+		    System.out.println("O numero 3 é o maior");
+	}
+}

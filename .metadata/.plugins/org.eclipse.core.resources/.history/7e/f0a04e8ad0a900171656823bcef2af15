@@ -1,0 +1,15 @@
+import javax.swing.plaf.synth.SynthSpinnerUI;
+
+public class UsandoForEach {
+
+	public static void main(String[] args) {
+		
+		int [] numberArray= { 10, 20,30,40,50};
+		for(int number : numberArray){
+		
+		System.out.println(number);
+	}
+		}
+		
+
+}

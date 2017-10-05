@@ -1,0 +1,14 @@
+import javax.swing.JOptionPane;
+
+public class RepeticaoIntervalo {
+
+	public static void main(String[] args) {
+		
+		
+	for (int number1 =0;  number1 < 5; number1 ++){
+		int number1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero de 0 á 5"));
+			System.out.println("We love this number. Again!");
+		}
+	}
+
+}

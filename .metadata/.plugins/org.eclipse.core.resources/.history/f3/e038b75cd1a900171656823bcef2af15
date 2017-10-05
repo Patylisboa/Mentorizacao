@@ -1,0 +1,18 @@
+
+
+public class UsandoForEach {
+
+	public static void main(String[] args) {
+		
+		int [] numberArray= { 10, 20,30,40,50};
+		for(int number : numberArray){
+		if(number == 30){
+			continue;
+		}
+		System.out.println(number);
+		
+	}
+		}
+		
+
+}

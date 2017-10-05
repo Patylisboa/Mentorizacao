@@ -1,0 +1,12 @@
+import javax.swing.JOptionPane;
+
+public class Maior_Menor {
+
+	public static void main(String[] args) {
+		
+		String receive = JOptionPane.showInputDialog("Type variable");
+		int number = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+		System.out.println(number);
+	}
+
+}
